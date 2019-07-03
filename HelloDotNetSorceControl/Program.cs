@@ -10,6 +10,12 @@ namespace HelloDotNetSorceControl
     {
         static void Main(string[] args)
         {
+            DisplayGreeting();
+            Console.ReadKey();
+        }
+
+        private static void DisplayGreeting()
+        {
             Console.WriteLine("Hello World");
         }
     }
