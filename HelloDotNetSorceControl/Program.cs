@@ -14,6 +14,9 @@ namespace HelloDotNetSorceControl
             Console.ReadKey();
         }
 
+        /// <summary>
+        /// Displays a greeting to the user
+        /// </summary>
         private static void DisplayGreeting()
         {
             Console.WriteLine("Hello World");
